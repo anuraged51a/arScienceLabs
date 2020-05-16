@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Material Compact Login Animation</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&amp;subset=latin,latin-ext'><link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="materialContainer">
+   <form method ="post" action = "/submit">
+      <div class="box">
+
+         <div class="title">REGISTER</div>
+
+         <div class="input">
+            <label for="name">Username</label>
+            <input type="text" name="name" id="name">
+            <span class="spin"></span>
+         </div>
+
+         <div class="input">
+            <label for="captcha">Captcha</label>
+            <input type="text" name="captcha" id="captcha">
+            <span class="spin"></span>
+         </div>
+
+         <div class="button login">
+            <button><img src="img/captcha.png"/></button>
+         </div>
+
+         <a href="" class="pass-forgot">Enter Captcha to Proceed</a>
+
+      </div>
+
+      <div class="overbox">
+         <div class="material-button alt-2"><span class="shape"></span></div>
+
+         <div class="title">ADD DETAILS</div>
+
+         <div class="input">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <span class="spin"></span>
+         </div>
+         
+         <div class="input">
+            <label for="organization">Organization</label>
+            <input type="text" name="organization" id="organization">
+            <span class="spin"></span>
+         </div>
+
+         <div class="input">
+            <label for="r_sessions">Number of Sessions</label>
+            <input type="text" name="r_sessions" id="r_sessions">
+            <span class="spin"></span>
+         </div>
+
+         <div class="button">
+            <button type="submit"><span>Submit</span></button>
+         </div>
+      </div>
+   </form>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="js/script.js"></script>
+
+</body>
+</html>
